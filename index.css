@@ -1,0 +1,77 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+  font-family: "Lato", "sans-serif";
+  color: #666666;
+  height: 100%;
+}
+
+.background--image1 {
+  background-image: url(./img/bg.jpg);
+  min-height: 100%;
+}
+
+.background--image2 {
+  background-image: url(./img/bg2.jpg);
+  height: 80%;
+}
+
+.background--image3 {
+  background-image: url(./img/bg3.jpg);
+  height: 80%;
+}
+
+.background--image4 {
+  background-image: url(./img/bg4.jpg);
+  min-height: 80%;
+}
+
+.background--image1,
+.background--image2,
+.background--image3,
+.background--image4 {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* todo: parallax effect */
+  position: relative;
+}
+
+.heading-container {
+  text-align: center;
+  top: 50%;
+  width: 100%;
+  position: absolute;
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+}
+
+.heading-container__heading {
+  background-color: black;
+  color: white;
+  padding: 2rem;
+  border-top-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  outline: 0.5rem inset green;
+  outline-offset: 1rem;
+}
+
+.heading-container__logo {
+  width: 30%;
+}
+
+.heading-container__text {
+  background-color: black;
+  color: white;
+  padding: 0.7rem;
+  text-transform: capitalize;
+  border-radius: 0.7rem 0rem 0.7rem 0rem;
+  outline: 0.4rem inset green;
+  outline-offset: 0.2rem;
+}
+
+
