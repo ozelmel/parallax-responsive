@@ -1,0 +1,1 @@
+# parallax-responsive-sample
