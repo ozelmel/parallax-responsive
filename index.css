@@ -91,3 +91,39 @@ body {
   color: #fff;
   line-height: 1.8rem;
 }
+
+@media (max-width: 768px) {
+  .heading-container {
+    font-size: 1rem;
+    letter-spacing: 0.5rem;
+  }
+  .heading-container__heading {
+    padding: 0.7rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    outline: 0.5rem inset green;
+    outline-offset: 1rem;
+  }
+  .section {
+    padding: 1.5rem 2rem;
+  }
+  .heading-container__text {
+    padding: 0.7rem;
+    border-radius: 0.7rem 0rem 0.7rem 0rem;
+    outline: 0.4rem inset green;
+    outline-offset: 0.2rem;
+    line-height: 3rem;
+  }
+  .heading-container__logo {
+    width: 50%;
+  }
+}
+
+@media (max-width: 500px) {
+  .background--image1,
+  .background--image2,
+  .background--image3,
+  .background--image4 {
+    background-attachment: scroll;
+  }
+}
